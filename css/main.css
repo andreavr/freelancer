@@ -54,9 +54,34 @@ header {
   padding-top: 150px;
   font-family: 'Montserrat', sans-serif;
   display: block;
+  height: 650px;
 }
 
 .intro-text {
   font-size: 70px;
   font-weight: 700;
+  text-transform: uppercase;
+}
+
+hr .star::after{
+  color: white;
+}
+
+/*Estilo section 2*/
+
+#portfolio {
+  background-color: white;
+  text-align: center;
+}
+
+.container-images {
+  width: 85%;
+  margin: 50px;
+  display: inline-block;
+}
+
+.container-images img {
+  display: inline-block;
+  width: 30%;
+  margin: 15px;
 }
