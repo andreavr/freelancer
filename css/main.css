@@ -18,6 +18,7 @@ header {
   padding: 30px;
   height: 105px;
   font-weight: 900;
+  z-index: 1000;
 
 }
 .principal{
@@ -46,7 +47,7 @@ header {
   padding-right: 10px;
 }
 
-/*Estilo section 1*/
+/*Estilo section profile*/
 #profile {
   background-color: #18bc9c;
   text-align: center;
@@ -60,18 +61,26 @@ header {
 .intro-text {
   font-size: 70px;
   font-weight: 700;
-  text-transform: uppercase;
 }
 
 hr .star::after{
   color: white;
 }
 
-/*Estilo section 2*/
+/*Estilo section portfolio*/
 
 #portfolio {
   background-color: white;
   text-align: center;
+  display: block;
+}
+
+#portfolio h2 {
+  font-size: 40px;
+  font-family: 'Montserrat',sans-serif;
+  font-weight: 900;
+  width: 100%;
+
 }
 
 .container-images {
@@ -84,4 +93,59 @@ hr .star::after{
   display: inline-block;
   width: 30%;
   margin: 15px;
+}
+
+/* Estilo section about*/
+
+#about {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: block;
+}
+
+.container-about{
+  background-color: #18BC9C;
+  color: white;
+  text-align: center;
+  width: 100%;
+  padding-bottom: 50px;
+}
+
+.text-about {
+  margin: 0;
+  padding: 0;
+}
+
+.text-about span {
+  display: inline-block;
+  margin-top: 50px;
+}
+
+.paragraph {
+  text-align: left;
+  width: 55%;
+  margin: 50px;
+  column-count: 2;
+  display: inline-block;
+  font-size: 20px;
+  font-family: 'Lato',sans-serif;
+
+}
+
+.paragraph p {
+  display: inline;
+  width: 50%;
+  text-align: left;
+}
+
+.fa-download {
+  text-align: center;
+  border: 2px solid white;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 20px;
+  background: #18bc9c;
+  font-size: 20px;
 }
