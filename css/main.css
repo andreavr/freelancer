@@ -35,6 +35,7 @@ header {
 
 .title {
   font-size: 30px;
+  font-weight: 700;
 }
 
 .links {
@@ -61,10 +62,33 @@ header {
 .intro-text {
   font-size: 70px;
   font-weight: 700;
+  margin-bottom: 20px;
 }
 
-hr .star::after{
-  color: white;
+/*Estilo hr con estrella*/
+hr {
+  overflow: visible;
+}
+
+hr.star-1{
+	max-width: 250px;
+	margin: 25px auto 30px;
+	padding: 0;
+	text-align: center;
+	border: none;
+	border-top: solid 5px;
+}
+
+hr.star-1:after{
+	color: #fff;
+	font-family: FontAwesome;
+	font-size: 25px;
+	content: '\f005';
+	top: -20px;
+	padding: 6px;
+	display: inline-block;
+	background-color: #18bc9c;
+	position: relative;
 }
 
 /*Estilo section portfolio*/
@@ -80,7 +104,32 @@ hr .star::after{
   font-family: 'Montserrat',sans-serif;
   font-weight: 900;
   width: 100%;
+}
 
+/*Estilo hr con estrella*/
+hr {
+  overflow: visible;
+}
+
+hr.star-2{
+	max-width: 250px;
+	margin: 25px auto 30px;
+	padding: 0;
+	text-align: center;
+	border: none;
+	border-top: solid 5px;
+}
+
+hr.star-2:after{
+	color: black;
+	font-family: FontAwesome;
+	font-size: 25px;
+	content: '\f005';
+	top: -20px;
+	padding: 6px;
+	display: inline-block;
+	background-color: white;
+	position: relative;
 }
 
 .container-images {
@@ -116,17 +165,46 @@ hr .star::after{
 .text-about {
   margin: 0;
   padding: 0;
+  padding-bottom: 20px;
+  font-weight: 900;
 }
 
 .text-about span {
   display: inline-block;
   margin-top: 50px;
+  font-size: 40px;
+}
+
+/*Estilo hr con estrella*/
+hr {
+  overflow: visible;
+}
+
+hr.star-3{
+	max-width: 250px;
+	margin: 25px auto 5px;
+	padding: 0;
+	text-align: center;
+	border: none;
+	border-top: solid 5px;
+}
+
+hr.star-3:after{
+	color: #fff;
+	font-family: FontAwesome;
+	font-size: 25px;
+	content: '\f005';
+	top: -20px;
+	padding: 6px;
+	display: inline-block;
+	background-color: #18bc9c;
+	position: relative;
 }
 
 .paragraph {
   text-align: left;
   width: 55%;
-  margin: 50px;
+  margin: 40px;
   column-count: 2;
   display: inline-block;
   font-size: 20px;
