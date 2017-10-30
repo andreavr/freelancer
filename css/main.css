@@ -54,20 +54,21 @@ header {
   background-color: #18bc9c;
   text-align: center;
   color: white;
-  padding-top: 150px;
-  font-family: 'Montserrat', sans-serif;
+  padding-top: 160px;
   display: block;
-  height: 650px;
+  height: 780px;
+  width: 100%;
 }
 
-.container {
-  margin-bottom: 40px;
-}
+/*.container {
+  /*margin-bottom: 40px;
+}*/
 
 .intro-text {
-  font-size: 70px;
+  font-size: 75px;
   font-weight: 700;
   margin-bottom: 20px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 /*Estilo hr con estrella*/
@@ -96,12 +97,18 @@ hr.star-1:after{
 	position: relative;
 }
 
+.profile-text {
+  font-size: 30px;
+  font-weight: normal;
+}
+
 /*Estilo section portfolio*/
 
 #portfolio {
   background-color: white;
   text-align: center;
   display: block;
+  width: 100%;
 }
 
 #portfolio h2 {
@@ -123,10 +130,11 @@ hr.star-2{
 	text-align: center;
 	border: none;
 	border-top: solid 5px;
+  color: #2c3e50;
 }
 
 hr.star-2:after{
-	color: black;
+	color: #2c3e50;
 	font-family: FontAwesome;
 	font-size: 25px;
 	content: '\f005';
@@ -141,6 +149,7 @@ hr.star-2:after{
   width: 85%;
   margin: 50px;
   display: inline-block;
+  margin-bottom: 70px;
 }
 
 .container-images img {
@@ -239,6 +248,11 @@ hr.star-3:after{
 
 
 /*Estilos section contac me*/
+
+#contact {
+  height: 600px;
+}
+
 .text-contact {
   margin: 0;
   padding: 0;
@@ -265,10 +279,11 @@ hr.star-4{
 	text-align: center;
 	border: none;
 	border-top: solid 5px;
+  color: #2c3e50;
 }
 
 hr.star-4:after{
-	color: black;
+	color: #2c3e50;
 	font-family: FontAwesome;
 	font-size: 25px;
 	content: '\f005';
@@ -280,16 +295,17 @@ hr.star-4:after{
 }
 
 .form {
-  width: 100%;
+  width: 80%;
   padding-right: 15px;
-  padding-left: 15px;
+  padding-left: 20%;
   display: block;
   text-align: center;
+  margin-bottom: 20px;
 }
 .formularios{
   position: relative;
   margin-bottom: 0;
-  padding-bottom: .5em;
+  padding-bottom: 10px;;
   border-bottom: 1px solid #eee;
 }
 .formularios input{
@@ -307,6 +323,14 @@ hr.star-4:after{
   background-color: #fff;
 
 }
+
+.formularios .message{
+  line-height: 1.5;
+  display: block;
+  padding-top: 0;
+  margin-bottom: 20px;
+}
+
 .boton{
   font-weight: 700;
   color: #fff;
@@ -317,7 +341,9 @@ hr.star-4:after{
   line-height: 1.5;
   border-radius: .3rem;
   box-shadow: none;
+  text-align: left;
 }
+
 
 /*Estilos de footer*/
 
@@ -328,6 +354,7 @@ hr.star-4:after{
   font-size: 20px;
   font-weight: 400;
   margin-bottom: 0;
+  height: 300px;
 }
 
 /*footer 1 */
@@ -371,17 +398,16 @@ footer .footer-1{
 
 .list-inline a{
   color: white;
+  padding-right: 10px;
 }
 
 .link-column3 {
-  color: #18bc9c;
   text-decoration: none;
+  color: #18bc9c;
 }
 
 
 /*footer 2 */
 .footer-2 {
   text-align: center;
-  border-bottom: 0;
-
 }
