@@ -228,6 +228,10 @@ hr.star-3:after{
   font-size: 20px;
 }
 
+.buttom a{
+  color: white;
+}
+
 
 /*Estilos section contac me*/
 .text-contact {
@@ -308,4 +312,17 @@ hr.star-4:after{
   line-height: 1.5;
   border-radius: .3rem;
   box-shadow: none;
+}
+
+/*Estilos de footer*/
+
+#text-footer {
+  background-color: #2C3E50;
+  color: white;
+  margin: 0;
+  width: 100%;
+}
+
+.footer-2 {
+  text-align: center;
 }
