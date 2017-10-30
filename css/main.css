@@ -227,3 +227,53 @@ hr.star-3:after{
   background: #18bc9c;
   font-size: 20px;
 }
+
+
+/*Estilos section contac me*/
+.text-contact {
+  margin: 0;
+  padding: 0;
+  padding-bottom: 20px;
+  font-weight: 900;
+  text-align: center;
+}
+
+.text-contact span {
+  display: inline-block;
+  margin-top: 50px;
+  font-size: 40px;
+}
+
+/*Estilo hr con estrella*/
+hr {
+  overflow: visible;
+}
+
+hr.star-4{
+	max-width: 250px;
+	margin: 25px auto 5px;
+	padding: 0;
+	text-align: center;
+	border: none;
+	border-top: solid 5px;
+}
+
+hr.star-4:after{
+	color: black;
+	font-family: FontAwesome;
+	font-size: 25px;
+	content: '\f005';
+	top: -20px;
+	padding: 6px;
+	display: inline-block;
+	background-color: white;
+	position: relative;
+}
+
+.form {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  display: block;
+  text-align: center;
+}
