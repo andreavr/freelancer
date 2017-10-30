@@ -307,4 +307,5 @@ hr.star-4:after{
   font-size: 1.25rem;
   line-height: 1.5;
   border-radius: .3rem;
+  box-shadow: none;
 }
