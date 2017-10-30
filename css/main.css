@@ -277,3 +277,34 @@ hr.star-4:after{
   display: block;
   text-align: center;
 }
+.formularios{
+  position: relative;
+  margin-bottom: 0;
+  padding-bottom: .5em;
+  border-bottom: 1px solid #eee;
+}
+.formularios input{
+  font-size: 1.5em;
+  position: relative;
+  padding-left: 0;
+  padding-right: 0;
+  border: none;
+  box-shadow: none!important;
+  width: 100%;
+  display: block;
+  padding: .375 rem .75rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+
+}
+.boton{
+  font-weight: 700;
+  color: #fff;
+  border-color: #18bc9c;
+  background-color: #18bc9c;
+  padding: .5rem 1rem;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  border-radius: .3rem;
+}
